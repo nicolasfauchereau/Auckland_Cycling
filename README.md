@@ -1,25 +1,7 @@
-# analyzing cyclists counts in Auckland using a Generalized Additive Model (`fbpropet`) 
+# The impact of weather conditions on cycling counts in Auckland, New Zealand 
 
-## installation instructions 
+Notebook:
 
-I assume you all have the [Anaconda Python Distribution](https://www.anaconda.com/download/) installed 
+[https://github.com/nicolasfauchereau/Auckland_Cycling/blob/master/notebooks/Auckland_cycling_and_weather.ipynb](https://github.com/nicolasfauchereau/Auckland_Cycling/blob/master/notebooks/Auckland_cycling_and_weather.ipynb)
 
-You'll need the following packages installed on top of the defaults ones: 
-
-+ [seaborn](https://seaborn.pydata.org/) for some visualisation, can be installed either from the Anaconda navigator, or the command line: 
-
-  ```
-  conda install seaborn
-  ```
-
-+ [folium]() for creating the interactive map of the cycling counters location (optional), we need the latest development version, installable via pip on the command line: 
-
-  ```
-  pip install git+https://github.com/python-visualization/folium
-  ```
-
-+ and of couse [fbprophet](https://facebook.github.io/prophet/) ... it is conda-installable from the conda-forge channel:
-
-  ```
-  conda install -c conda-forge fbprophet
-  ```
+[HTML-rendered notebook with interactive map](https://cdn.rawgit.com/nicolasfauchereau/Auckland_Cycling/master/notebooks/Auckland_cycling_and_weather.html), via [cdn.rawgit.com](https://cdn.rawgit.com/): 
