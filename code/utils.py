@@ -299,8 +299,8 @@ def plot_joint_plot(verif, x='yhat', y='y', title=None, fpath = '../figures/pape
 
     g = sns.jointplot(x='yhat', y='y', data = verif, kind="reg", color="0.4")
     
-    g.fig.set_figwidth(6)
-    g.fig.set_figheight(6)
+    g.fig.set_figwidth(8)
+    g.fig.set_figheight(8)
 
     ax = g.fig.axes[1]
     
@@ -314,9 +314,9 @@ def plot_joint_plot(verif, x='yhat', y='y', title=None, fpath = '../figures/pape
 
     ax.text(100, 2500, "R = {:+4.2f}\nMAE = {:4.1f}".format(verif.loc[:,['y','yhat']].corr().iloc[0,1], MAE(verif.loc[:,'y'].values, verif.loc[:,'yhat'].values)), fontsize=16)
 
-    ax.set_xlabel("model's estimate", fontsize=15)
+    ax.set_xlabel("model's estimates", fontsize=15)
     
-    ax.set_ylabel("observation", fontsize=15)
+    ax.set_ylabel("observations", fontsize=15)
     
     ax.grid(ls=':')
 
